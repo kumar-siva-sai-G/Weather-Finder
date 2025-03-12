@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', function() {
         error.textContent = '';
         loading.style.display = 'block';
 
-        const apiKey = "give-api-key";  // provide your api key here to access
+        const apiKey = 0e29f319b00c4de78b3122811250903;  // provide your api key here to access
         const url = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${location}&aqi=yes`;
 
         fetch(url)
